@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -14,10 +15,17 @@ public class PlayerControls : MonoBehaviour
     private float Move;
     private Vector2 Movement;
     private Rigidbody2D PlayerRigidBody;
+    private Vector3 SpawnPos;
 
     void Start() {
         PlayerRigidBody = GetComponent<Rigidbody2D>();
         CurrentJumps = HowManyJumps;
+        SpawnPos = transform.position;
+        Debug.Log(SpawnPos);
+    }
+
+    public void Reset() {
+        transform.position = SpawnPos;
     }
 
     void Update() {
