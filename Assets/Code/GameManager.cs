@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -45,7 +45,6 @@ public class GameManager : MonoBehaviour
             BaseEventData EventData = new BaseEventData(EventSystem.current);
             this.DeathTrigger.Invoke(EventData);
             HealthText.text = "Health: " + CurrentHealth;
-
         }
     }
 
