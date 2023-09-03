@@ -1,8 +1,9 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -13,18 +14,17 @@ public class GameManager : MonoBehaviour
     public Text WinText;
     public Text ScoreText;
     public EventTrigger.TriggerEvent DeathTrigger;
+    public string NextLevel;
     private float Score = 0f;
     public float ScoreModifier = 1f;
-    
+
     AudioManager audioManager;
 
-    private void Awake()
-    {
+    private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    public void DamagePlayer()
-    {
+    public void DamagePlayer() {
         audioManager.PlaySFX(audioManager.hit);
         CurrentHealth--;
         Debug.Log(CurrentHealth);
@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
     public void LevelFinish() {
         audioManager.PlaySFX(audioManager.victory);
         WinText.enabled = true;
+        SceneManager.LoadScene(sceneName: NextLevel);
     }
 
     void Start() {
