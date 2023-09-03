@@ -18,6 +18,13 @@ public class PlayerControls : MonoBehaviour
     private Rigidbody2D PlayerRigidBody;
     private Vector3 SpawnPos;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+        
     void Start() {
         PlayerRigidBody = GetComponent<Rigidbody2D>();
         CurrentJumps = HowManyJumps;
@@ -49,6 +56,14 @@ public class PlayerControls : MonoBehaviour
         PlayerRigidBody.velocity = new Vector2(MoveSpeed * Move, PlayerRigidBody.velocity.y);
 
         if (Input.GetButtonDown("Jump") && (IsJumping == false || CurrentJumps != 0)) {
+            if(CurrentJumps == HowManyJumps)
+            {
+                audioManager.PlaySFX(audioManager.jump);
+            }
+            else
+            {
+                audioManager.PlaySFX(audioManager.extraJump);
+            }
             CurrentJumps--;
             PlayerRigidBody.velocity = new Vector2(PlayerRigidBody.velocity.x, JumpSpeed);
         }
@@ -56,6 +71,7 @@ public class PlayerControls : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) { 
         if (other.gameObject.CompareTag("Ground")) {
+            audioManager.PlaySFX(audioManager.landing);
             IsJumping = false;
             CurrentJumps = HowManyJumps;
             animator.SetBool("Jump", false);
