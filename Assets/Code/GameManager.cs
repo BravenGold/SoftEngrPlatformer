@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     public EventTrigger.TriggerEvent DeathTrigger;
     private float Score = 0f;
     public float ScoreModifier = 1f;
+    public string NextLevel;
 
     public void DamagePlayer()
     {
@@ -25,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     public void LevelFinish() {
         WinText.enabled = true;
+        SceneManager.LoadScene(sceneName: NextLevel);
     }
 
     void Start() {
