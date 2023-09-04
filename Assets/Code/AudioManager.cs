@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip collectable;
     public AudioClip crouch;
     public AudioClip hit;
+    public AudioClip lostLife;
     public AudioClip extraJump;
     public AudioClip jump;
     public AudioClip landing;

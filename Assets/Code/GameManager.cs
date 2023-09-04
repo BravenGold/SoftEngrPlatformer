@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
     public void LevelFinish() {
         audioManager.PlaySFX(audioManager.victory);
         WinText.enabled = true;
-        SceneManager.LoadScene(sceneName: NextLevel);
+        //SceneManager.LoadScene(sceneName: NextLevel);
     }
 
     void Start() {
@@ -111,7 +111,9 @@ public class GameManager : MonoBehaviour
         }
     }
     //When the player picks up the 1Up, adds a life to the player's total.
-    public void GainLife() {
+    public void GainLife() 
+    {
+        audioManager.PlaySFX(audioManager.oneUp);
         lives += 1;
         LivesText.text = " " + lives;
     }
@@ -136,6 +138,7 @@ public class GameManager : MonoBehaviour
             }
             else if(lives > 0)
             {
+                audioManager.PlaySFX(audioManager.lostLife);
                 lives--;
                 LivesText.text = " " + lives;
                 width = fullWidth;

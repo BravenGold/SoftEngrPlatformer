@@ -52,3 +52,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UI Element
+    uniqueID: 2217874501
+    locked: 0
