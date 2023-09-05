@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     private float fullWidth = 1f;
     public int foodCollected = 0;
     public int lives = 0;
+    public static int levelIndex;
 
     AudioManager audioManager;
 
@@ -49,7 +50,10 @@ public class GameManager : MonoBehaviour
     public void LevelFinish() {
         audioManager.PlaySFX(audioManager.victory);
         WinText.enabled = true;
-        //SceneManager.LoadScene(sceneName: NextLevel);
+        Debug.Log(levelIndex);
+        levelIndex++;
+        Debug.Log(levelIndex);
+        SceneManager.LoadScene(levelIndex);
     }
 
     void Start() {
