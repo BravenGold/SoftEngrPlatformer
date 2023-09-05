@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 30234678}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1410,7 +1410,7 @@ GameObject:
   - component: {fileID: 116607016}
   m_Layer: 0
   m_Name: Koda_Grass (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1647,7 +1647,7 @@ GameObject:
   - component: {fileID: 124483321}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1967,7 +1967,8 @@ MonoBehaviour:
   MoveSpeed: 7
   JumpSpeed: 8
   IsJumping: 0
-  HowManyJumps: 3
+  JumpsUsed: 0
+  HowManyJumps: 30
   animator: {fileID: 127776578}
 --- !u!95 &127776578
 Animator:
@@ -2004,7 +2005,7 @@ GameObject:
   - component: {fileID: 138406961}
   m_Layer: 0
   m_Name: Koda_Grass
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2199,7 +2200,7 @@ GameObject:
   - component: {fileID: 173247726}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2711,7 +2712,7 @@ GameObject:
   - component: {fileID: 229389354}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3465,7 +3466,7 @@ GameObject:
   - component: {fileID: 251273333}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4091,7 +4092,7 @@ GameObject:
   - component: {fileID: 345860991}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4249,7 +4250,7 @@ GameObject:
   - component: {fileID: 349765442}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4407,7 +4408,7 @@ GameObject:
   - component: {fileID: 351738648}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4565,7 +4566,7 @@ GameObject:
   - component: {fileID: 368105428}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4934,7 +4935,7 @@ GameObject:
   - component: {fileID: 377938494}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5526,7 +5527,7 @@ GameObject:
   - component: {fileID: 430968812}
   m_Layer: 0
   m_Name: Koda_Grass (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5686,7 +5687,7 @@ GameObject:
   - component: {fileID: 453815687}
   m_Layer: 0
   m_Name: Koda_Grass (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6268,7 +6269,7 @@ GameObject:
   - component: {fileID: 490986016}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7646,7 +7647,7 @@ GameObject:
   - component: {fileID: 562945816}
   m_Layer: 0
   m_Name: Koda_Grass (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7885,7 +7886,7 @@ GameObject:
   - component: {fileID: 576900343}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8043,7 +8044,7 @@ GameObject:
   - component: {fileID: 581792416}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8232,7 +8233,7 @@ GameObject:
   - component: {fileID: 598596064}
   m_Layer: 0
   m_Name: Koda_Grass (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8392,7 +8393,7 @@ GameObject:
   - component: {fileID: 599292355}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8649,7 +8650,7 @@ GameObject:
   - component: {fileID: 625091390}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8807,7 +8808,7 @@ GameObject:
   - component: {fileID: 635537089}
   m_Layer: 0
   m_Name: Koda_Grass (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8967,7 +8968,7 @@ GameObject:
   - component: {fileID: 643687206}
   m_Layer: 0
   m_Name: Koda_Grass (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9338,7 +9339,7 @@ GameObject:
   - component: {fileID: 653235005}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9496,7 +9497,7 @@ GameObject:
   - component: {fileID: 674849235}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9654,7 +9655,7 @@ GameObject:
   - component: {fileID: 675185634}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10038,7 +10039,7 @@ GameObject:
   - component: {fileID: 688653960}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10227,7 +10228,7 @@ GameObject:
   - component: {fileID: 709481485}
   m_Layer: 0
   m_Name: Koda_Grass (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10581,7 +10582,7 @@ GameObject:
   - component: {fileID: 796976962}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10739,7 +10740,7 @@ GameObject:
   - component: {fileID: 834237729}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10897,7 +10898,7 @@ GameObject:
   - component: {fileID: 836309358}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11055,7 +11056,7 @@ GameObject:
   - component: {fileID: 844492347}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11503,7 +11504,7 @@ GameObject:
   - component: {fileID: 849139340}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11661,7 +11662,7 @@ GameObject:
   - component: {fileID: 878554053}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11903,7 +11904,7 @@ GameObject:
   - component: {fileID: 898078545}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12061,7 +12062,7 @@ GameObject:
   - component: {fileID: 921361664}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12219,7 +12220,7 @@ GameObject:
   - component: {fileID: 938431165}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12377,7 +12378,7 @@ GameObject:
   - component: {fileID: 969899149}
   m_Layer: 0
   m_Name: Koda_Grass (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12575,7 +12576,7 @@ GameObject:
   - component: {fileID: 985751103}
   m_Layer: 0
   m_Name: Koda_Grass (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12735,7 +12736,7 @@ GameObject:
   - component: {fileID: 991339326}
   m_Layer: 0
   m_Name: Koda_Grass (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12895,7 +12896,7 @@ GameObject:
   - component: {fileID: 1003159059}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13053,7 +13054,7 @@ GameObject:
   - component: {fileID: 1004825925}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13211,7 +13212,7 @@ GameObject:
   - component: {fileID: 1022457444}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13484,7 +13485,7 @@ GameObject:
   - component: {fileID: 1058350197}
   m_Layer: 0
   m_Name: Koda_Grass (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13644,7 +13645,7 @@ GameObject:
   - component: {fileID: 1060659834}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13802,7 +13803,7 @@ GameObject:
   - component: {fileID: 1063819977}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13960,7 +13961,7 @@ GameObject:
   - component: {fileID: 1065235928}
   m_Layer: 0
   m_Name: Koda_Grass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14557,7 +14558,7 @@ GameObject:
   - component: {fileID: 1094127683}
   m_Layer: 0
   m_Name: Koda_Grass (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14928,7 +14929,7 @@ GameObject:
   - component: {fileID: 1111377682}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15455,7 +15456,7 @@ GameObject:
   - component: {fileID: 1145681502}
   m_Layer: 0
   m_Name: Koda_Grass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15615,7 +15616,7 @@ GameObject:
   - component: {fileID: 1171529766}
   m_Layer: 0
   m_Name: Koda_Grass (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15775,7 +15776,7 @@ GameObject:
   - component: {fileID: 1182531156}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16144,7 +16145,7 @@ GameObject:
   - component: {fileID: 1208663020}
   m_Layer: 0
   m_Name: Koda_Grass (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16335,7 +16336,7 @@ GameObject:
   - component: {fileID: 1288374972}
   m_Layer: 0
   m_Name: Koda_Grass (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16495,7 +16496,7 @@ GameObject:
   - component: {fileID: 1307506042}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16763,7 +16764,7 @@ GameObject:
   - component: {fileID: 1335410263}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16921,7 +16922,7 @@ GameObject:
   - component: {fileID: 1345672777}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17110,7 +17111,7 @@ GameObject:
   - component: {fileID: 1365656556}
   m_Layer: 0
   m_Name: Koda_Grass (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17428,7 +17429,7 @@ GameObject:
   - component: {fileID: 1383715362}
   m_Layer: 0
   m_Name: Koda_Grass (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17814,7 +17815,7 @@ GameObject:
   - component: {fileID: 1425969171}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18045,7 +18046,7 @@ GameObject:
   - component: {fileID: 1466307808}
   m_Layer: 0
   m_Name: Koda_Grass (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18205,7 +18206,7 @@ GameObject:
   - component: {fileID: 1471282648}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18363,7 +18364,7 @@ GameObject:
   - component: {fileID: 1475228604}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18732,7 +18733,7 @@ GameObject:
   - component: {fileID: 1504754337}
   m_Layer: 0
   m_Name: Koda_Grass (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19292,7 +19293,7 @@ GameObject:
   - component: {fileID: 1533456212}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19452,7 +19453,7 @@ GameObject:
   - component: {fileID: 1536706072}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19610,7 +19611,7 @@ GameObject:
   - component: {fileID: 1545285663}
   m_Layer: 0
   m_Name: Koda_Grass (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19876,7 +19877,7 @@ GameObject:
   - component: {fileID: 1580503345}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20034,7 +20035,7 @@ GameObject:
   - component: {fileID: 1613653701}
   m_Layer: 0
   m_Name: Koda_Grass (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20405,7 +20406,7 @@ GameObject:
   - component: {fileID: 1627169159}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20563,7 +20564,7 @@ GameObject:
   - component: {fileID: 1634131791}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20932,7 +20933,7 @@ GameObject:
   - component: {fileID: 1642544426}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21090,7 +21091,7 @@ GameObject:
   - component: {fileID: 1645844023}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21248,7 +21249,7 @@ GameObject:
   - component: {fileID: 1648532958}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21406,7 +21407,7 @@ GameObject:
   - component: {fileID: 1648619481}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21837,7 +21838,7 @@ GameObject:
   - component: {fileID: 1675061559}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22671,7 +22672,7 @@ GameObject:
   - component: {fileID: 1713738913}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22890,7 +22891,7 @@ GameObject:
   - component: {fileID: 1782492278}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23115,7 +23116,7 @@ GameObject:
   - component: {fileID: 1808590831}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23304,7 +23305,7 @@ GameObject:
   - component: {fileID: 1817966195}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23688,7 +23689,7 @@ GameObject:
   - component: {fileID: 1849552376}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23846,7 +23847,7 @@ GameObject:
   - component: {fileID: 1858357589}
   m_Layer: 0
   m_Name: Koda_Grass (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24108,7 +24109,7 @@ GameObject:
   - component: {fileID: 1919398850}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24266,7 +24267,7 @@ GameObject:
   - component: {fileID: 1922008496}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24424,7 +24425,7 @@ GameObject:
   - component: {fileID: 1960913229}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24793,7 +24794,7 @@ GameObject:
   - component: {fileID: 1978027315}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25177,7 +25178,7 @@ GameObject:
   - component: {fileID: 1983546712}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25335,7 +25336,7 @@ GameObject:
   - component: {fileID: 2006111296}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25493,7 +25494,7 @@ GameObject:
   - component: {fileID: 2010442718}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25735,7 +25736,7 @@ GameObject:
   - component: {fileID: 2053406141}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25893,7 +25894,7 @@ GameObject:
   - component: {fileID: 2061881652}
   m_Layer: 0
   m_Name: Koda_Grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26051,7 +26052,7 @@ GameObject:
   - component: {fileID: 2070789627}
   m_Layer: 0
   m_Name: Koda_Grass (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26211,7 +26212,7 @@ GameObject:
   - component: {fileID: 2072179655}
   m_Layer: 0
   m_Name: Koda_Grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26578,7 +26579,7 @@ GameObject:
   - component: {fileID: 2105651944}
   m_Layer: 0
   m_Name: Koda_Grass (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26949,7 +26950,7 @@ GameObject:
   - component: {fileID: 2128792194}
   m_Layer: 0
   m_Name: Koda_Grass (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27109,7 +27110,7 @@ GameObject:
   - component: {fileID: 2147105180}
   m_Layer: 0
   m_Name: Koda_Grass (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

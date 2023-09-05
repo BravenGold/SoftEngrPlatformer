@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 47150512}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -717,7 +717,7 @@ GameObject:
   - component: {fileID: 89705777}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1344,7 +1344,8 @@ MonoBehaviour:
   MoveSpeed: 7
   JumpSpeed: 8
   IsJumping: 0
-  HowManyJumps: 3
+  JumpsUsed: 0
+  HowManyJumps: 6
   animator: {fileID: 127776578}
 --- !u!95 &127776578
 Animator:
@@ -1378,7 +1379,7 @@ GameObject:
   - component: {fileID: 166997944}
   m_Layer: 0
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2046,7 +2047,7 @@ GameObject:
   - component: {fileID: 235942370}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2710,7 +2711,7 @@ GameObject:
   - component: {fileID: 256586290}
   m_Layer: 0
   m_Name: MineGrass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3324,7 +3325,7 @@ GameObject:
   - component: {fileID: 462657153}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3904,7 +3905,7 @@ GameObject:
   - component: {fileID: 479198706}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4154,7 +4155,7 @@ GameObject:
   - component: {fileID: 529245672}
   m_Layer: 0
   m_Name: MineGrass Big (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4569,7 +4570,7 @@ GameObject:
   - component: {fileID: 557606392}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4727,7 +4728,7 @@ GameObject:
   - component: {fileID: 559250428}
   m_Layer: 0
   m_Name: MineGrass Big (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5277,7 +5278,7 @@ GameObject:
   - component: {fileID: 680500499}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5545,7 +5546,7 @@ GameObject:
   - component: {fileID: 715756102}
   m_Layer: 0
   m_Name: MineGrass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5998,7 +5999,7 @@ GameObject:
   - component: {fileID: 816282144}
   m_Layer: 0
   m_Name: MineGrass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6530,7 +6531,7 @@ GameObject:
   - component: {fileID: 931144221}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6729,7 +6730,7 @@ GameObject:
   - component: {fileID: 982205094}
   m_Layer: 0
   m_Name: MineGrass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7132,7 +7133,7 @@ GameObject:
   - component: {fileID: 1090387912}
   m_Layer: 0
   m_Name: MineGrass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7532,7 +7533,7 @@ GameObject:
   - component: {fileID: 1314508456}
   m_Layer: 0
   m_Name: MineGrass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8422,7 +8423,7 @@ GameObject:
   - component: {fileID: 1483354710}
   m_Layer: 0
   m_Name: MineGrass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8791,7 +8792,7 @@ GameObject:
   - component: {fileID: 1515499924}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9040,7 +9041,7 @@ GameObject:
   - component: {fileID: 1584123948}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9409,7 +9410,7 @@ GameObject:
   - component: {fileID: 1664304881}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9775,7 +9776,7 @@ GameObject:
   - component: {fileID: 1702024370}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10246,7 +10247,7 @@ GameObject:
   - component: {fileID: 1798947616}
   m_Layer: 0
   m_Name: MineGrass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10667,7 +10668,7 @@ GameObject:
   - component: {fileID: 1886180752}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10825,7 +10826,7 @@ GameObject:
   - component: {fileID: 1891633616}
   m_Layer: 0
   m_Name: MineGrass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10983,7 +10984,7 @@ GameObject:
   - component: {fileID: 1931576865}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11144,7 +11145,7 @@ GameObject:
   - component: {fileID: 1942745811}
   m_Layer: 0
   m_Name: MineGrass Single
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11302,7 +11303,7 @@ GameObject:
   - component: {fileID: 1973822510}
   m_Layer: 0
   m_Name: MineGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11962,7 +11963,7 @@ GameObject:
   - component: {fileID: 2129691892}
   m_Layer: 0
   m_Name: MineGrass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12120,7 +12121,7 @@ GameObject:
   - component: {fileID: 2135992567}
   m_Layer: 0
   m_Name: MineGrass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

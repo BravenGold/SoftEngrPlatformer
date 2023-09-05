@@ -9,7 +9,8 @@ public class PlayerControls : MonoBehaviour
     public float MoveSpeed = 1f;
     public float JumpSpeed = 5f;
     public bool IsJumping = false;
-    public float HowManyJumps = 1f;
+    public float JumpsUsed = 0;
+    public float HowManyJumps = 6.0f;
     public Animator animator;
 
     private float CurrentJumps;
@@ -41,7 +42,7 @@ public class PlayerControls : MonoBehaviour
         Move = Input.GetAxis("Horizontal");
 
         animator.SetFloat("Speed", Mathf.Abs(Move)); //Transition animation from idle to walking when walking
-
+        animator.SetFloat("Jumps Used", JumpsUsed); //Transition to floating
         //Check direction player is moving and change accordingly
         if (Move > 0)
         {
@@ -65,6 +66,7 @@ public class PlayerControls : MonoBehaviour
                 audioManager.PlaySFX(audioManager.extraJump);
             }
             CurrentJumps--;
+            JumpsUsed++;
             PlayerRigidBody.velocity = new Vector2(PlayerRigidBody.velocity.x, JumpSpeed);
         }
     }
@@ -74,6 +76,7 @@ public class PlayerControls : MonoBehaviour
             audioManager.PlaySFX(audioManager.landing);
             IsJumping = false;
             CurrentJumps = HowManyJumps;
+            JumpsUsed = 0;
             animator.SetBool("Jump", false);
         }
     }
