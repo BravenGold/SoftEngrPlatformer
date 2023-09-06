@@ -22,6 +22,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip poyo;
     public AudioClip victory;
     public AudioClip death;
+    public AudioClip error;
 
     private bool pauseMusic = false;
     // Start is called before the first frame update
@@ -49,6 +50,7 @@ public class AudioManager : MonoBehaviour
             sfxSource.PlayOneShot(poyo);
         }
     }
+
 
     // Update is called once per frame
     void Update()

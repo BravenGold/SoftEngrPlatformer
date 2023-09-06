@@ -2386,7 +2386,7 @@ Transform:
   m_GameObject: {fileID: 252304325}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.01, y: 8.03, z: -1155.0663}
+  m_LocalPosition: {x: -42.26, y: 5.3, z: -1155.0663}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5373,8 +5373,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.8124628, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 961b5a1dae466f6439a0aecda5208b62, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5435,7 +5435,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.13, y: 1.15}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6340,7 +6340,7 @@ GameObject:
   - component: {fileID: 653739649}
   m_Layer: 0
   m_Name: platform (3)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7417,7 +7417,7 @@ GameObject:
   - component: {fileID: 762815279}
   m_Layer: 0
   m_Name: platform (15)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8014,7 +8014,7 @@ GameObject:
   - component: {fileID: 825220164}
   m_Layer: 0
   m_Name: platform (3)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13138,7 +13138,7 @@ GameObject:
   - component: {fileID: 1334945261}
   m_Layer: 0
   m_Name: platform (1)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14464,6 +14464,8 @@ MonoBehaviour:
   CollectedGrape: {fileID: 891359496}
   CollectedPancake: {fileID: 1025595148}
   CollectedMetamato: {fileID: 731350970}
+  Goal: {fileID: 529259541}
+  goalOpen: {fileID: 21300000, guid: a1f7f34dcfba85647b4359588d41c498, type: 3}
   DeathTrigger:
     m_PersistentCalls:
       m_Calls:
@@ -17057,7 +17059,7 @@ GameObject:
   - component: {fileID: 1601112577}
   m_Layer: 0
   m_Name: platform (14)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18362,7 +18364,7 @@ GameObject:
   - component: {fileID: 1675214990}
   m_Layer: 0
   m_Name: platform (2)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19716,8 +19718,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 2078033004}
   sfxSource: {fileID: 180486829}
-  startMusic: {fileID: 8300000, guid: 7ec77d7bae3a11549856c49213261ebe, type: 3}
-  loopedMusic: {fileID: 8300000, guid: 95b91cd9b4bc4e84ba3738def2f5ed53, type: 3}
+  startMusic: {fileID: 0}
+  loopedMusic: {fileID: 8300000, guid: f41275400f7a96849a38550e214f9ee1, type: 3}
   oneUp: {fileID: 8300000, guid: 2506b1a649d15d4429a6456225771631, type: 3}
   collectable: {fileID: 8300000, guid: 8e729e370d4f41a469a9f6ca60433876, type: 3}
   crouch: {fileID: 8300000, guid: f13bb4fc31e0b144aaa38d9d382dde22, type: 3}
@@ -19729,6 +19731,7 @@ MonoBehaviour:
   poyo: {fileID: 8300000, guid: 03912b570e9b3d94b99b02f066bfdfb8, type: 3}
   victory: {fileID: 8300000, guid: 1e1993f976da16f42acbf3db851ddb1f, type: 3}
   death: {fileID: 8300000, guid: d600e5f1bce83df42b1945830c66a31b, type: 3}
+  error: {fileID: 8300000, guid: ebfde1a7d494fc0419c887af6a013263, type: 3}
 --- !u!4 &1717495953
 Transform:
   m_ObjectHideFlags: 0
@@ -19760,7 +19763,7 @@ GameObject:
   - component: {fileID: 1721140807}
   m_Layer: 0
   m_Name: platform (2)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20499,7 +20502,7 @@ GameObject:
   - component: {fileID: 1749587331}
   m_Layer: 0
   m_Name: platform (1)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

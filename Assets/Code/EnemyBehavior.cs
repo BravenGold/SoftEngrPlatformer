@@ -18,10 +18,16 @@ public class EnemyBehavior : MonoBehaviour
     void Update() { 
         Distance = Vector2.Distance(this.transform.position, Player.transform.position);
         //Debug.Log(Distance);
-
         RaycastHit2D groundInfo = Physics2D.Raycast(GroundDetection.position, Vector2.down, 2f);
-
         if ((float)Distance <= AttackRange) { 
+            if(Player.transform.position.x - this.transform.position.x > 0)
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+            }
             Vector2 direction = Player.transform.position - this.transform.position;
             transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
         } else {

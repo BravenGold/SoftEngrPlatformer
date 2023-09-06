@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -68,6 +69,15 @@ public class PlayerControls : MonoBehaviour
             CurrentJumps--;
             JumpsUsed++;
             PlayerRigidBody.velocity = new Vector2(PlayerRigidBody.velocity.x, JumpSpeed);
+        }
+        if (Input.GetKeyDown(KeyCode.R)) //allows the player to reload the level by pressing "R"
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape)) //exits game if player presses esc
+        {
+            // Quit the application
+            Application.Quit();
         }
     }
 

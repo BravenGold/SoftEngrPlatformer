@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     public GameObject CollectedGrape;
     public GameObject CollectedPancake;
     public GameObject CollectedMetamato;
+    public GameObject Goal;
+    public Sprite goalOpen;
 
     public EventTrigger.TriggerEvent DeathTrigger;
     public string NextLevel;
@@ -35,28 +37,49 @@ public class GameManager : MonoBehaviour
 
     AudioManager audioManager;
 
-    private void Awake() {
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    public void DamagePlayer() {
+    public void DamagePlayer()
+    {
         audioManager.PlaySFX(audioManager.hit);
         CurrentHealth--;
         Debug.Log(CurrentHealth);
-        width = width - fullWidth * 1/Health;
+        width = width - fullWidth * 1 / Health;
         HBFilled.transform.localScale = new Vector2(width, 0.93f);
     }
 
-    public void LevelFinish() {
-        audioManager.PlaySFX(audioManager.victory);
-        WinText.enabled = true;
-        Debug.Log(levelIndex);
-        levelIndex++;
-        Debug.Log(levelIndex);
-        SceneManager.LoadScene(levelIndex);
+    public void LevelFinish()
+    {
+        
+        //Debug.Log(levelIndex);
+        if (CollectedAllItems()) //checks that the player has gotten all the food
+        {
+            levelIndex++;
+            //Debug.Log(levelIndex);
+            if (levelIndex >= 4)
+            {
+                audioManager.PlaySFX(audioManager.victory); //plays victory theme when player beats final level
+                WinText.enabled = true;
+            }
+            else
+            {
+                if (levelIndex < 5)
+                {
+                    SceneManager.LoadScene(levelIndex);
+                }
+            }
+        }
+        else
+        {
+            audioManager.PlaySFX(audioManager.error); //plays error sound when player tries to enter door without all the food
+        }
     }
 
-    void Start() {
+    void Start()
+    {
         CurrentHealth = Health;
         CollectedBread.SetActive(false);
         CollectedPancake.SetActive(false);
@@ -67,64 +90,76 @@ public class GameManager : MonoBehaviour
         WinText.enabled = false;
     }
 
-    public void GainScore() {
+    public void GainScore()
+    {
         audioManager.PlaySFX(audioManager.collectable);
         ScoreModifier = 100;
-        Score +=  ScoreModifier;
+        Score += ScoreModifier;
         ScoreText.text = " " + Score;
     }
 
     //When the player picks up the bread, sets the bread active in the hud.
-    public void GainBread(){
+    public void GainBread()
+    {
         CollectedBread.SetActive(true);
-        if(CurrentHealth != Health)
+        CollectedAllItems();
+        if (CurrentHealth != Health)
         {
             CurrentHealth++;
-            width = width + fullWidth * 1/Health;
+            width = width + fullWidth * 1 / Health;
             HBFilled.transform.localScale = new Vector2(width, 0.93f);
         }
     }
     //When the player picks up the grape, sets the grape active in the hud.
-     public void GainGrape(){
+    public void GainGrape()
+    {
         CollectedGrape.SetActive(true);
-        if(CurrentHealth != Health)
+        CollectedAllItems();
+        if (CurrentHealth != Health)
         {
             CurrentHealth++;
-            width = width + fullWidth * 1/Health;
+            width = width + fullWidth * 1 / Health;
             HBFilled.transform.localScale = new Vector2(width, 0.93f);
         }
     }
     //When the player picks up the pancake, sets the pancake active in the hud.
-     public void GainPancake(){
+    public void GainPancake()
+    {
         CollectedPancake.SetActive(true);
-        if(CurrentHealth != Health)
+        CollectedAllItems();
+        if (CurrentHealth != Health)
         {
             CurrentHealth++;
-            width = width + fullWidth * 1/Health;
+            width = width + fullWidth * 1 / Health;
             HBFilled.transform.localScale = new Vector2(width, 0.93f);
         }
     }
     //When the player picks up the metamato, sets the metamato active in the hud.
-     public void GainMetamato(){
+    public void GainMetamato()
+    {
         CollectedMetamato.SetActive(true);
-        if(CurrentHealth != Health)
+        CollectedAllItems();
+        if (CurrentHealth != Health)
         {
             CurrentHealth++;
-            width = width + fullWidth * 1/Health;
+            width = width + fullWidth * 1 / Health;
             HBFilled.transform.localScale = new Vector2(width, 0.93f);
         }
     }
     //When the player picks up the 1Up, adds a life to the player's total.
-    public void GainLife() 
+    public void GainLife()
     {
         audioManager.PlaySFX(audioManager.oneUp);
         lives += 1;
         LivesText.text = " " + lives;
     }
 
-    void Update() {
-        if (CurrentHealth <= 0) {
-            if(lives <= 0) {
+    void Update()
+    {
+        if (CurrentHealth <= 0)
+        {
+            if (lives <= 0)
+            {
                 audioManager.PlaySFX(audioManager.death);
                 CurrentHealth = Health;
                 BaseEventData EventData = new BaseEventData(EventSystem.current);
@@ -139,8 +174,10 @@ public class GameManager : MonoBehaviour
                 CollectedPancake.SetActive(false);
                 CollectedMetamato.SetActive(false);
                 CollectedGrape.SetActive(false);
+
+
             }
-            else if(lives > 0)
+            else if (lives > 0)
             {
                 audioManager.PlaySFX(audioManager.lostLife);
                 lives--;
@@ -150,6 +187,22 @@ public class GameManager : MonoBehaviour
                 HBFilled.transform.localScale = new Vector2(fullWidth, 0.93f);
             }
         }
+    }
+
+    //returns true if all foods have been collected and also changes the door to open
+    private bool CollectedAllItems()
+    {
+        bool collected = false;
+        if (CollectedMetamato.activeSelf && CollectedBread.activeSelf && CollectedPancake.activeSelf && CollectedGrape.activeSelf && CollectedPancake.activeSelf)
+        {
+            collected = true;
+            SpriteRenderer spriteRenderer = Goal.GetComponent<SpriteRenderer>();
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.sprite = goalOpen;
+            }
+        }
+        return collected;
     }
 
 }
